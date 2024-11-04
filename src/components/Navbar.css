@@ -1,0 +1,63 @@
+.navbar {
+    display: flex; 
+    justify-content: space-between; /* Space between logo and options */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px;
+    background-color: #062675; 
+    color: white; 
+    height: 80px;
+}
+
+.options {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+.nav-button {
+    background-color: transparent; 
+    color: white;
+    border: 2px solid white; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; /* Transition for hover effect */
+    text-decoration: none; /* Remove underline from anchor links */
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+}
+
+.navbar:hover {
+    box-shadow:10px 10px 10px rgb(23, 86, 158) inset;
+}
+
+
+
+.dropdown {
+    position: absolute; 
+    background: rgba(22, 10, 147);
+    border:5px solid #030862; 
+    z-index: 10000; 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px; /* Space between button and dropdown */
+    width: 200px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Shadow effect */
+    color:white;
+}
+
+.dropdown ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; 
+    margin: 0;
+}
+
+.dropdown li {
+    padding: 5px 0; 
+}
+
+.dropdown li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
